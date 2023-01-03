@@ -74,3 +74,7 @@ class Solution:
         print(dic)
         return sum(dic.values())
         
+# For any kind of discussion I put my contacts here:
+# farhad.szd@gmail.com
+# +994557367002 (WhatsApp)
+# @farhad_zada_ (instagram)
