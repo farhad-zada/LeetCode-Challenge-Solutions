@@ -65,6 +65,11 @@ Answers within 10-5 of the actual value will be accepted.
 
 # Code
 
+# We need to keep the track of how many times the getBill called, with self.t we do this.
+# We set the product and product id as value and key dictionary (self.pro)
+# So now we can be faster for finding products 
+# We set our discount too (say if dicount is 94%, our self.dis = (100-94)/100)
+
 class Cashier:
 
     def __init__(self, n: int, discount: int, products: List[int], prices: List[int]):
@@ -86,9 +91,8 @@ class Cashier:
 # obj = Cashier(n, discount, products, prices)
 # param_1 = obj.getBill(product,amount)
 
+# For any kind of discussion: 
 
-email: farhad.szd@gmail.com
-
-whatsapp: +994 55 736 7002
-
-instagram: farhad_zada_
+# email: farhad.szd@gmail.com
+# whatsapp: +994 55 736 7002
+# instagram: farhad_zada_
